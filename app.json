@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "PTT",
+    "slug": "PTT",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.laksh.ptt",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "We need access to your microphone to record audio."
+      }
+    },
+    "android": {
+      "permissions": [
+        "RECORD_AUDIO",
+        "WRITE_EXTERNAL_STORAGE",
+        "RECORD_AUDIO",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.laksh.ptt"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f02e33fc-71c6-450b-beab-b36efb645ccd"
+      }
+    },
+    "owner": "laksh.lilhare"
+  }
+}
